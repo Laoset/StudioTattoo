@@ -1,0 +1,68 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/grain-stamp-edge-rough-dirty_1194-9587.jpg?w=826&t=st=1681477814~exp=1681478414~hmac=86ea50c971d01f0ed53346a0a3c891f6026a12bf6baba69e46c6fa095a1bf48e");
+  background-size: cover;
+  backdrop-filter: blur(15px);
+}
+.audio-bars {
+  display: flex;
+  justify-content: center;
+}
+.bar {
+  width: 3px;
+  height: 15px;
+  margin: 0 6px;
+  background-color: #ffffff;
+  animation: audioBars 2.1s ease-out infinite;
+}
+.bar2 {
+  width: 3px;
+  height: 15px;
+  margin: 0 6px;
+  background-color: #ffffff;
+  animation: audioBars 2.2s ease-out infinite;
+}
+.bar3 {
+  width: 3px;
+  height: 15px;
+  margin: 0 6px;
+  background-color: #ffffff;
+  animation: audioBars 2.3s ease-out infinite;
+}
+.bar4 {
+  width: 3px;
+  height: 15px;
+  margin: 0 6px;
+  background-color: #ffffff;
+  animation: audioBars 2.4s ease-out infinite;
+}
+.bar5 {
+  width: 3px;
+  height: 15px;
+  margin: 0 6px;
+  background-color: #ffffff;
+  animation: audioBars 2.5s ease-out infinite;
+}
+@keyframes audioBars {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(3);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 15px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
