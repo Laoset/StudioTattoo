@@ -12,7 +12,7 @@ const Images = () => {
   ];
   return (
     <>
-      <section className="h-full w-full py-28 ">
+      <section className="h-[90%] lg:full lg:w-3/4 lg:py-28 ">
         <Swiper
           autoplay={{
             delay: 2000,
@@ -23,8 +23,8 @@ const Images = () => {
           modules={[Autoplay]}
         >
           {Imagenes.map((imagen) => (
-            <SwiperSlide>
-              <img src={imagen} alt="" className="h-full rounded-md" />
+            <SwiperSlide key={imagen}>
+              <img src={imagen} alt="" className="h-full w-full rounded-md" />
             </SwiperSlide>
           ))}
           1

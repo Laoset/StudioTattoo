@@ -17,10 +17,11 @@ const Imagenes: string[] = [
 const Arte = () => {
   return (
     <>
-      <section className="h-full w-auto flex justify-center items-center align-middle ">
-        <div className="w-full h-3/4 grid grid-cols-2 gap-4 overflow-y-scroll p-10 ">
+      <section className="h-[90%] lg:full lg:w-full lg:py-28 flex justify-center align-middle items-center ">
+        <div className="w-full h-full  grid sm:grid-cols-2 gap-4 overflow-y-scroll px-6 lg:p-10">
           {Imagenes.map((tatuaje) => (
             <img
+              key={tatuaje}
               src={tatuaje}
               alt=""
               className="w-[20rem] h-[18rem] rounded-md hover:scale-110 duration-500 hover:cursor-pointer opacity-70 hover:opacity-100"

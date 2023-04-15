@@ -1,7 +1,8 @@
 body {
-  background-image: url("https://img.freepik.com/free-photo/grain-stamp-edge-rough-dirty_1194-9587.jpg?w=826&t=st=1681477814~exp=1681478414~hmac=86ea50c971d01f0ed53346a0a3c891f6026a12bf6baba69e46c6fa095a1bf48e");
+  background-image: url("https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg?w=1380&t=st=1681592036~exp=1681592636~hmac=0ee2fa8c5d804370e61051eddbba7e2dad71af87186475fb82132f4bb5730106");
+  background-repeat: repeat;
   background-size: cover;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(20px);
 }
 .audio-bars {
   display: flex;
