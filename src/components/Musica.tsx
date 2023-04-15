@@ -69,9 +69,8 @@ const Musica = () => {
   //Efectos
   useEffect(() => {
     if (audioPlayer.current) {
-      // Asigna el elemento de audio a la referencia
       const audioElement = document.querySelector("audio");
-      audioPlayer.current = audioElement as HTMLAudioElement;
+      // audioPlayer.current = audioElement as HTMLAudioElement;
     }
   }, []);
   useEffect(() => {
@@ -117,7 +116,9 @@ const Musica = () => {
                     onChange={handlerProgressBar}
                   />
                 </div>
-                <div>{duration && calculadoradeduration(duration)}</div>
+                <div>
+                  {duration ? calculadoradeduration(duration) : "00:00"}
+                </div>
               </div>
               <div className="flex flex-row mb-2">
                 <button className="text-4xl =" onClick={handlerLeft}>
