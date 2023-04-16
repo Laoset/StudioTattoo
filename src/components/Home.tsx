@@ -34,7 +34,7 @@ const TextSideBar = () => {
     setSection(newSection);
   };
   const handleClick = () => {
-    const phone = "1125593833";
+    const phone = "+5491125593833";
     const message = "Hola, quisiera hacerme un tatuaje";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url);
