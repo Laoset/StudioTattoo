@@ -34,7 +34,7 @@ const TextSideBar = () => {
     setSection(newSection);
   };
   const handleClick = () => {
-    const phone = "+5491125593833";
+    const phone = "+549111111111";
     const message = "Hola, quisiera hacerme un tatuaje";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url);
@@ -51,7 +51,7 @@ const TextSideBar = () => {
             onClick={() => handlerSection(Section.Home)}
             className="text-5xl font-title mb-2 lg:m-0"
           >
-            Slytherin
+            AK-CS
           </h1>
           <h1
             className="text-5xl font-title text-black"
