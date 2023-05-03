@@ -87,7 +87,7 @@ const Musica = () => {
       <section className="h-[90%] w-[90%] lg:full lg:w-full flex justify-center align-middle items-center ">
         <section className="w-full h-full bg-[#1e293bb3] border-2 border-solid border-[#ffffff29] lg:h-[33.5rem] lg:w-[20rem] rounded-lg flex flex-col lg:items-center">
           <a
-            href="https://www.youtube.com/watch?v=00Nevzwc0oE"
+            href="https://www.youtube.com/watch?v=aW7bzd8uwyQ"
             target="_blank"
             className="flex justify-center lg:mt-2 w-full"
           >
@@ -95,14 +95,14 @@ const Musica = () => {
           </a>
           <div className="flex flex-col lg:justify-center items-center lg:p-8 lg:gap-2  h-[90%] w-full">
             <img
-              src="https://metal.academy/uploads/releases/1f1fa5bc25dac3af52c83f917bb02ee1.jpg"
+              src="https://www.eltiempo.com/files/article_main_1200/files/crop/uploads/2023/04/17/643d58025a633.r_1682967265797.309-0-1291-590.png"
               className="w-[85%] h-[58%]"
             />
             <audio src={musicona} preload="metadata" ref={audioPlayer}></audio>
             <div className="flex flex-col lg:justify-center items-center lg:gap-3 h-3/4">
               <div>
-                <h1 className="font-bold text-xl">Hermetica</h1>
-                <h2 className="text-md text-[#c7cfdd]">Del camionero</h2>
+                <h1 className="font-bold text-xl">Jack Black</h1>
+                <h2 className="text-md text-[#c7cfdd]">Peaches</h2>
               </div>
               <div className="flex flex-row gap-2">
                 <div className={`${play ? "text-[#7DD3FC] opacity-70" : ""}`}>

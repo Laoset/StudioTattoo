@@ -24,7 +24,7 @@ const Arte = () => {
               key={tatuaje}
               src={tatuaje}
               alt=""
-              className="w-[20rem] h-[18rem] rounded-md hover:scale-110 duration-500 hover:cursor-pointer opacity-70 hover:opacity-100"
+              className="w-[20rem] h-[18rem] rounded-md hover:scale-110 duration-500  opacity-70 hover:opacity-100 "
             />
           ))}
         </div>

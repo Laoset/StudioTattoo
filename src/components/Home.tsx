@@ -5,12 +5,7 @@ import Arte from "./Arte";
 import Tattoos from "./Tattoos";
 import Musica from "./Musica";
 import Contacto from "./Contacto";
-import {
-  BsInstagram,
-  BsWhatsapp,
-  BsArrowRightSquareFill,
-  BsArrowRightSquare,
-} from "react-icons/bs";
+import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { AiOutlineArrowRight } from "react-icons/ai";
 enum Section {
   Home = "home",
@@ -34,13 +29,15 @@ const TextSideBar = () => {
     setSection(newSection);
   };
   const handleClick = () => {
-    const phone = "+549111111111";
-    const message = "Hola, quisiera hacerme un tatuaje";
-    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    const phone: string = "+549111111111";
+    const message: string = "Hola, quisiera hacerme un tatuaje";
+    const url: string = `https://wa.me/${phone}?text=${encodeURIComponent(
+      message
+    )}`;
     window.open(url);
   };
   const handleClickIg = () => {
-    const url = "https://www.instagram.com/";
+    const url: string = "https://www.instagram.com/";
     window.open(url);
   };
   return (

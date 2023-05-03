@@ -7,7 +7,6 @@ const Contacto = () => {
         <p className="text-lg text-justify ">
           Ubicado en{" "}
           <span className="text-white font-bold">
-            {" "}
             Avellaneda, Buenos Aires.
           </span>
         </p>

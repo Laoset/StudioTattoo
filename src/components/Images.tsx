@@ -1,6 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import { Autoplay } from "swiper";
 
@@ -23,7 +22,7 @@ const Images = () => {
           modules={[Autoplay]}
         >
           {Imagenes.map((imagen) => (
-            <SwiperSlide key={imagen}>
+            <SwiperSlide key={imagen} className="cursor-default">
               <img src={imagen} alt="" className="h-full w-full rounded-md" />
             </SwiperSlide>
           ))}
